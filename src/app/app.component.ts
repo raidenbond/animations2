@@ -19,7 +19,7 @@ import   { trigger,state, style, animate,transition,AnimationEvent } from '@angu
     trigger('rotated', [
         state('void', style({transform: 'rotate(-180deg'})),
 
-        transition('void => *',[animate('2.5 ease-in')])]),
+        transition('void => *',[animate('2.5s ease-in')])]),
     trigger('flyout', [
 
       state('in', style({transform: 'translateX(0)'})),

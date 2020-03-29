@@ -2,14 +2,15 @@
 <h1> part 1 of the four items </h1>
 <br>
  <img @rotated src="http://52.229.126.133/dog2.PNG" alt="" class="circular">
-<img @fade serc="http://52.229.126.133/horse2.PNG" alt="" class="circular">
+<img @fade src="http://52.229.126.133/horse2.PNG" alt="" class="circular">
 <br>
 
-
+<app-pagecantfound></app-pagecantfound>  
+<app-new></app-new>
 <h1> (please enter)</h1>
 
 <h2 *ngIf="isDisabled"> Rotate banner(click)</h2>
- &nbsp;&nbsp;
+ &nbsp;&nbsp; 
  
     <p> the box is now {{ isOpen ? 'Open' : 'Closed'}} !</p>
       
